@@ -4,8 +4,9 @@ public class Main {
     public static void main(String[] args) {
             Cat cat = new Cat("Кот", 200, 0, 2);
             cat.running(150);
+            cat.swimming(7);
             cat.jumping(3);
-            cat.swimming(5);
+
 
             Dog dog = new Dog("Собака", 500, 10, 0.5);
             dog.running(600);
