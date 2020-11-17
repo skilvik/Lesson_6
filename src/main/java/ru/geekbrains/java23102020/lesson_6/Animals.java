@@ -15,16 +15,16 @@ public class Animals {
     protected void running(int length) {
 
         if (run >= length)
-            System.out.println(this.name + " пробежит ");
+            System.out.println(this.name + " пробежит");
         else
-            System.out.println(this.name + " не пробежит ");
+            System.out.println(this.name + " не пробежит");
     }
 
 
     protected void swimming(int length_swim) {
 
         if (swim >= length_swim)
-            System.out.println(this.name + " проплывет ");
+            System.out.println(this.name + " проплывет");
         else
             System.out.println(this.name + " не проплывет");
     }
@@ -32,7 +32,7 @@ public class Animals {
     protected void jumping(double height) {
 
         if (jump >= height)
-            System.out.println(this.name + " перепрыгнет ");
+            System.out.println(this.name + " перепрыгнет");
         else
             System.out.println(this.name + " не перепрыгнет");
     }

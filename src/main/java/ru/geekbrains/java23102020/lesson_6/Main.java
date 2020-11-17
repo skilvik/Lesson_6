@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
             Cat cat = new Cat("Кот", 200, 0, 2);
             cat.running(150);
-            cat.swimming(7);
+            cat.swimming(4);
             cat.jumping(3);
 
 
